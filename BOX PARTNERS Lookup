@@ -1,0 +1,33 @@
+   <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:typ="http://xmlns.oracle.com/apps/sales/baseSales/common/salesLookups/salesLookupService/types/" xmlns:sal="http://xmlns.oracle.com/apps/sales/baseSales/common/salesLookups/salesLookupService/"> 
+   <soapenv:Header/> 
+   <soapenv:Body> 
+      <typ:createLookupValues> 
+         <typ:lookupValues> 
+            <!--Optional:--> 
+            <sal:LookupType>OD_VW_ENABLED_SUPPLIERS</sal:LookupType> 
+            <!--Optional:--> 
+            <sal:LookupCode>339452-300000375880748</sal:LookupCode> 
+            <!--Optional:--> 
+            <sal:AppliesTo/> 
+            <!--Optional:--> 
+            <sal:EnabledFlag>true</sal:EnabledFlag> 
+            <!--Optional:--> 
+            <sal:ConflictId>0</sal:ConflictId> 
+            <sal:Meaning>300000375880748</sal:Meaning> 
+            <!--Optional:--> 
+            <sal:Description>00004310</sal:Description> 
+            <!--Zero or more repetitions:--> 
+            <sal:LookupValuesTranslation> 
+               <!--Optional:--> 
+               <sal:Language>EU</sal:Language> 
+               <!--Optional:--> 
+               <sal:Meaning>OD VW Suppliers</sal:Meaning> 
+               <!--Optional:--> 
+               <sal:Description>SCM Enabled Suppliers</sal:Description> 
+               <!--Optional:--> 
+               <sal:SourceLang>EU</sal:SourceLang> 
+            </sal:LookupValuesTranslation> 
+         </typ:lookupValues> 
+      </typ:createLookupValues> 
+   </soapenv:Body> 
+</soapenv:Envelope>
