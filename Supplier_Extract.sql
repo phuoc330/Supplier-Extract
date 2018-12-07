@@ -17,9 +17,9 @@ apps.ap_supplier_sites_all apss--apss.purchasing_site_flag
 --apps.ap_terms apt; -- apt.terms_id,apt.name
 where 1=1
 and aps.enabled_flag = 'Y'
-and aps.vendor_id in 12128
+--and aps.vendor_id in 12128
 --and aps.vendor_name = 'SAUDER WOODWORKING CO'
 and aps.vendor_id = apss.vendor_id
 and apss.purchasing_site_flag = 'Y'
 and ltrim(apss.vendor_site_code_alt,'0') in
-('5505');
+('0000');
